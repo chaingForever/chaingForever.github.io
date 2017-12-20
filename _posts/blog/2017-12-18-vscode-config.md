@@ -10,21 +10,6 @@ description: 备份自己的vscode设置
 HTML:
 ```
 {
-/*
-	// Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	"Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	}
-*/
 "ss": {
 	"prefix": "ss",
 	"body": [
@@ -59,21 +44,6 @@ HTML:
 JavaScript:
 ```
 {
-	/*
-	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	"Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	}
-*/
 	"dg": {
 		"prefix": "dg",
 		"body": [
@@ -414,9 +384,10 @@ eslint配置.eslintrc
   }
 }
 ```
-Settings Sync:
-用来同步vscode的设置,懒人神器
+Settings Sync:用来同步vscode的设置,懒人神器
+```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
 GitHub Token: 0b8b87dc01687cd9eeebc3026819a609c51510ff
 GitHub Gist: 3c9349cc5e94dbb32902964a42a37f8a
+```
