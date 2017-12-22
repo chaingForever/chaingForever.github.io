@@ -6,9 +6,9 @@ highlighter: 'pygments'
 #paginate: 8
 permalink: /:title
 
-name: “wangyu's Blog”
-title: wangyu's blog
-description: Everything about wangyu.
+name: “WangYu's Blog”
+title: WangYu's blog
+description: Something about chaingForever.
 url: http://chaingForever.github.io
 feed: /atom.xml
 author_info: <a href="http://chaingForever.github.io/">chaingForever</a>
