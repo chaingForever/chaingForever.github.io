@@ -7,7 +7,7 @@ highlighter: 'pygments'
 permalink: /:title
 
 name: “WangYu's Blog”
-title: WangYu's blog
+title: WangYu's Blog
 description: Something about chaingForever.
 url: http://chaingForever.github.io
 feed: /atom.xml
