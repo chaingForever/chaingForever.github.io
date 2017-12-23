@@ -7,6 +7,8 @@ description: 备份自己的vscode设置
 
 备份自己的vscode设置
 
+首先是用户代码块:
+
 HTML:
 ```
 {
@@ -67,7 +69,7 @@ JavaScript:
 	}
 }
 ```
-vscode:
+然后是设置vscode:
 ```
 {
   "editor.fontFamily": "Source code Pro,Menlo,Monaco,'Courier New'",
@@ -86,14 +88,24 @@ vscode:
   },
   "vetur.format.defaultFormatter.js": "vscode-typescript",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
-    "vue"
+    "html",
+    "vue",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
   ],
   "eslint.options": {
     "useEslintrc": true,
-    "configFile": "C:/Users/wangyu/Desktop/app/.eslintrc"
+    "configFile": "C:/Users/wangyu/.eslintrc"
   },
   "emmet.syntaxProfiles": {
     "vue-html": "html",
@@ -147,8 +159,8 @@ vscode:
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "sync.gist": "de21ca67b784e7f3281c808997046e8a",
-  "sync.lastUpload": "2017-12-15T15:39:13.150Z",
+  "sync.gist": "3c9349cc5e94dbb32902964a42a37f8a",
+  "sync.lastUpload": "2017-12-19T17:44:12.028Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
@@ -157,7 +169,8 @@ vscode:
   "sync.host": "",
   "sync.pathPrefix": "",
   "sync.quietSync": false,
-  "sync.askGistName": false
+  "sync.askGistName": false,
+  "files.autoSave": "afterDelay",
 }
 ```
 快捷键设置：
@@ -195,7 +208,7 @@ vscode:
   }
 ]
 ```
-插件:
+插件,使用环境是vue:
 ```
 auto-rename-tag v0.0.15
   bracket-pair-colorizer v0.10.14
@@ -384,7 +397,7 @@ eslint配置.eslintrc
   }
 }
 ```
-Settings Sync:用来同步vscode的设置,懒人神器
+Settings Sync:用来同步vscode的设置,神器
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
