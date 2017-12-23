@@ -5,9 +5,9 @@ category: blog
 description: 备份自己的vscode设置
 ---
 
-备份自己的vscode设置
+<h2>备份自己的vscode设置</h2>
 
-首先是用户代码块:
+<h3>首先是用户代码块:</h3>
 
 HTML:
 ```
@@ -69,7 +69,7 @@ JavaScript:
 	}
 }
 ```
-然后是设置vscode:
+<h3>然后是设置vscode:</h3>
 ```
 {
   "editor.fontFamily": "Source code Pro,Menlo,Monaco,'Courier New'",
@@ -173,7 +173,9 @@ JavaScript:
   "files.autoSave": "afterDelay",
 }
 ```
-快捷键设置：
+
+<h3>快捷键设置：</h3>
+
 ```
 [
   {
@@ -208,7 +210,9 @@ JavaScript:
   }
 ]
 ```
-插件,使用环境是vue:
+
+<h3>插件,使用环境是vue:</h3>
+
 ```
 auto-rename-tag v0.0.15
   bracket-pair-colorizer v0.10.14
@@ -240,7 +244,9 @@ auto-rename-tag v0.0.15
   vue-snippets v0.1.5
   vue-vscode-snippets v1.2.0
 ```
-eslint配置.eslintrc
+
+<h3>eslint配置.eslintrc</h3>
+
 ```
 {
   "plugins": [
@@ -397,7 +403,9 @@ eslint配置.eslintrc
   }
 }
 ```
-Settings Sync:用来同步vscode的设置,神器
+
+<h3>最后是Settings Sync:用来同步vscode的设置</h3>
+
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
