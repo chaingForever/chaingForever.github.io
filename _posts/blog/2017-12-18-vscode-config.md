@@ -215,34 +215,39 @@ JavaScript:
 
 ```
 auto-rename-tag v0.0.15
+  better-comments v1.1.3
   bracket-pair-colorizer v0.10.14
   code-settings-sync v2.8.7
+  color-highlight v2.3.0
   easy-less v1.4.5
-  gitlens v7.0.0
-  html-css-class-completion v1.14.0
-  htmltagwrap v0.0.6
+  gitignore v0.5.0
+  gitlens v7.1.0
+  htmltagwrap v0.0.7
+  indenticator v0.4.2
   JavaScriptSnippets v1.5.0
   jquerysnippets v0.0.1
+  markdown-preview-enhanced v0.3.1
   Material-theme v2.11.0
+  npm-intellisense v1.3.0
   open-html-in-browser v0.1.21
   output-colorizer v0.1.2
   path-autocomplete v1.7.0
   path-intellisense v1.4.2
+  quokka-vscode v1.0.85
   stylelint v0.31.0
   vetur v0.11.5
+  vscode-auto-open-markdown-preview v0.0.4
   vscode-babel-coloring v0.0.4
   vscode-codemetrics v1.11.2
-  vscode-css-peek v2.0.2
   vscode-eslint v1.4.3
   vscode-fileheader v0.0.2
   vscode-filesize v1.0.0
   vscode-great-icons v2.1.22
+  vscode-html-css v0.1.8
   vscode-markdownlint v0.12.0
   vscode-regexp-preivew v0.0.3
   vscode-standardjs v1.2.0
-  vue-peek v1.0.2
   vue-snippets v0.1.5
-  vue-vscode-snippets v1.2.0
 ```
 
 <h3>eslint配置.eslintrc</h3>
@@ -409,6 +414,6 @@ auto-rename-tag v0.0.15
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
-GitHub Token: 0b8b87dc01687cd9eeebc3026819a609c51510ff
-GitHub Gist: 3c9349cc5e94dbb32902964a42a37f8a
+GitHub Token: cb0cb076ea9ec1a9de8adc7ac60e9a508051a287
+GitHub Gist: 7ac224faa4b2d24de9b549da153d2f91
 ```
