@@ -1,2 +1,2 @@
 
-这是[chaingForever.github.io](http://chaingForever.github.io)的blog。
+这是[chaingForever](http://chaingForever.github.io)的blog。
