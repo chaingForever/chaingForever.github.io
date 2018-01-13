@@ -63,7 +63,7 @@ JavaScript:
 	"cl": {
 		"prefix": "cl",
 		"body": [
-			"console.log($1);"
+			"console.log($1)"
 		],
 		"description": "Log output to console"
 	}
@@ -75,7 +75,6 @@ JavaScript:
   "editor.fontFamily": "Source code Pro,Menlo,Monaco,'Courier New'",
   "editor.renderLineHighlight": "none",
   "editor.lineHeight": 27,
-  "editor.roundedSelection": false,
   "extensions.autoUpdate": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
@@ -124,6 +123,9 @@ JavaScript:
     "strings": true
   },
   "workbench.colorTheme": "One Dark Pro",
+  "highlightLine.borderColor": "#7f848e",
+  "highlightLine.borderStyle": "groove",
+  "highlightLine.borderWidth": "1px",
   "editor.wordBasedSuggestions": false,
   "editor.minimap.enabled": false,
   "editor.parameterHints": false,
@@ -132,7 +134,6 @@ JavaScript:
   "emmet.showAbbreviationSuggestions": false,
   "editor.tabCompletion": true,
   "editor.acceptSuggestionOnEnter": "off",
-  "workbench.sideBar.location": "right",
   "html.suggest.ionic": false,
   "editor.showFoldingControls": "always",
   "html.suggest.angular1": false,
@@ -140,7 +141,7 @@ JavaScript:
   "editor.formatOnPaste": true,
   "window.menuBarVisibility": "toggle",
   "window.enableMenuBarMnemonics": false,
-  "editor.quickSuggestionsDelay": 350,
+  "editor.quickSuggestionsDelay": 400,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.snippetSuggestions": "top",
   "workbench.iconTheme": "vscode-great-icons",
@@ -159,8 +160,8 @@ JavaScript:
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "sync.gist": "3c9349cc5e94dbb32902964a42a37f8a",
-  "sync.lastUpload": "2017-12-19T17:44:12.028Z",
+  "sync.gist": "7ac224faa4b2d24de9b549da153d2f91",
+  "sync.lastUpload": "2017-12-24T10:10:16.652Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
@@ -171,6 +172,7 @@ JavaScript:
   "sync.quietSync": false,
   "sync.askGistName": false,
   "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
 }
 ```
 
@@ -214,40 +216,43 @@ JavaScript:
 <h3>插件,使用环境是vue:</h3>
 
 ```
-auto-rename-tag v0.0.15
-  better-comments v1.1.3
+  auto-rename-tag v0.0.15
+  better-comments v1.1.4
   bracket-pair-colorizer v0.10.14
   code-settings-sync v2.8.7
   color-highlight v2.3.0
   easy-less v1.4.5
   gitignore v0.5.0
-  gitlens v7.1.0
+  gitlens v7.2.0
+  highlight-line-vscode v0.0.1
+  html-snippets v0.2.1
   htmltagwrap v0.0.7
   indenticator v0.4.2
   JavaScriptSnippets v1.5.0
   jquerysnippets v0.0.1
-  markdown-preview-enhanced v0.3.1
-  Material-theme v2.11.0
+  markdown-preview-enhanced v0.3.2
+  Material-theme v2.11.1
   npm-intellisense v1.3.0
   open-html-in-browser v0.1.21
   output-colorizer v0.1.2
-  path-autocomplete v1.7.0
+  path-autocomplete v1.8.1
   path-intellisense v1.4.2
-  quokka-vscode v1.0.85
   stylelint v0.31.0
   vetur v0.11.5
   vscode-auto-open-markdown-preview v0.0.4
   vscode-babel-coloring v0.0.4
-  vscode-codemetrics v1.11.2
+  vscode-element-helper v0.5.2
   vscode-eslint v1.4.3
   vscode-fileheader v0.0.2
-  vscode-filesize v1.0.0
+  vscode-filesize v1.1.0
   vscode-great-icons v2.1.22
-  vscode-html-css v0.1.8
-  vscode-markdownlint v0.12.0
+  vscode-html-css v0.2.0
+  vscode-markdownlint v0.12.1
+  vscode-npm-script v0.3.3
   vscode-regexp-preivew v0.0.3
-  vscode-standardjs v1.2.0
+  vscode-standardjs v1.2.1
   vue-snippets v0.1.5
+  vue-vscode-snippets v1.3.0
 ```
 
 <h3>eslint配置.eslintrc</h3>
@@ -414,6 +419,6 @@ auto-rename-tag v0.0.15
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
-GitHub Token: cb0cb076ea9ec1a9de8adc7ac60e9a508051a287
-GitHub Gist: 7ac224faa4b2d24de9b549da153d2f91
+GitHub Token: ca2c8d39b23d1c0df8294f82bedb8be269a448fd
+GitHub Gist: 6bee4626d6d30ad012566f9e12266549
 ```
