@@ -53,10 +53,17 @@ JavaScript:
 		],
 		"description": "document.getElementById(id)"
 	},
+	"qq": {
+		"prefix": "qq",
+		"body": [
+			"document.querySelector($1)"
+		],
+		"description": "document.querySelector(querySelector)"
+	},
 	"fuc": {
 		"prefix": "fuc",
 		"body": [
-			"function(){$1}"
+			"function $1(){}"
 		],
 		"description": "function(){}"
 	},
@@ -78,6 +85,8 @@ JavaScript:
   "extensions.autoUpdate": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
   "files.associations": {
     "*.ejs": "html",
     "*.wxml": "html",
@@ -139,7 +148,6 @@ JavaScript:
   "html.suggest.angular1": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "window.menuBarVisibility": "toggle",
   "window.enableMenuBarMnemonics": false,
   "editor.quickSuggestionsDelay": 400,
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -160,8 +168,8 @@ JavaScript:
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "sync.gist": "7ac224faa4b2d24de9b549da153d2f91",
-  "sync.lastUpload": "2017-12-24T10:10:16.652Z",
+  "sync.gist": "6bee4626d6d30ad012566f9e12266549",
+  "sync.lastUpload": "2018-01-13T14:55:52.920Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
@@ -179,6 +187,7 @@ JavaScript:
 <h3>快捷键设置：</h3>
 
 ```
+// 将键绑定放入此文件中以覆盖默认值
 [
   {
     "key": "ctrl+j",
@@ -209,6 +218,14 @@ JavaScript:
     "key": "shift+alt+f",
     "command": "-editor.action.formatDocument",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction"
   }
 ]
 ```
