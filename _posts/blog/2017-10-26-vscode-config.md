@@ -459,6 +459,6 @@ JavaScript:
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
-GitHub Token: 076672dfc462d55246c4008193859ab5398f44a5
-GitHub Gist: 683a3e919d40cfa9ef105063043058ca
+GitHub Token: bf01fff379aaaf746c4a559a8b013004f510b7fd
+GitHub Gist: 1510f745eb912875812e3a9ee09deba6
 ```
