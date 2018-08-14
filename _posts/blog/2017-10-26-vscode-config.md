@@ -53,7 +53,7 @@ JavaScript:
 		],
 		"description": "document.getElementById(id)"
 	},
-	"qq": {
+	"dq": {
 		"prefix": "dq",
 		"body": [
 			"document.querySelector($1)"
@@ -83,7 +83,7 @@ JavaScript:
   "editor.renderLineHighlight": "none",
   "editor.lineHeight": 27,
   "extensions.autoUpdate": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "expand",
@@ -154,23 +154,16 @@ JavaScript:
   "fileheader.LastModifiedBy": "wangyu",
   "fileheader.tpl": "\r\n// {author} was created in {createTime}\r\n \r\n// @Last Modified by   : {lastModifiedBy}\r\n// @Last Modified time : {updateTime}\r\n \r\n",
   "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": true,
     "suppressWelcomeNotice": true
   },
-  "sync.gist": "6bee4626d6d30ad012566f9e12266549",
-  "sync.lastUpload": "2018-01-13T14:55:52.920Z",
+  "sync.gist": "1510f745eb912875812e3a9ee09deba6",
+  "sync.lastUpload": "2018-08-14T03:28:53.466Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
   "sync.forceDownload": false,
-  "sync.anonymousGist": false,
   "sync.host": "",
   "sync.pathPrefix": "",
   "sync.quietSync": false,
@@ -182,6 +175,10 @@ JavaScript:
   },
   "element-helper.version": "2.2",
   "gitlens.keymap": "alternate",
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "newUntitledFile",
 }
 ```
 
