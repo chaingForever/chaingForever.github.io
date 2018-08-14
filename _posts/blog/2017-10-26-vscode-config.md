@@ -255,41 +255,43 @@ JavaScript:
 
 ```
   auto-rename-tag v0.0.15
-  better-comments v1.1.4
-  bracket-pair-colorizer v0.10.14
-  code-settings-sync v2.8.7
+  better-comments v1.2.6
+  bracket-pair-colorizer v1.0.59
+  code-settings-sync v3.0.0
   color-highlight v2.3.0
   easy-less v1.4.5
   gitignore v0.5.0
-  gitlens v7.2.0
+  gitlens v8.5.4
   highlight-line-vscode v0.0.1
+  html-css-class-completion v1.17.1
   html-snippets v0.2.1
   htmltagwrap v0.0.7
-  indenticator v0.4.2
-  JavaScriptSnippets v1.5.0
+  indenticator v0.6.0
+  JavaScriptSnippets v1.7.0
   jquerysnippets v0.0.1
-  markdown-preview-enhanced v0.3.2
-  Material-theme v2.11.1
+  markdown-preview-enhanced v0.3.5
+  Material-theme v2.15.4
   npm-intellisense v1.3.0
   open-html-in-browser v0.1.21
   output-colorizer v0.1.2
-  path-autocomplete v1.8.1
+  path-autocomplete v1.12.0
   path-intellisense v1.4.2
-  stylelint v0.31.0
-  vetur v0.11.5
+  stylelint v0.38.1
+  vetur v0.12.4
   vscode-auto-open-markdown-preview v0.0.4
   vscode-babel-coloring v0.0.4
-  vscode-element-helper v0.5.2
-  vscode-eslint v1.4.3
+  vscode-element-helper v0.5.3
+  vscode-eslint v1.4.12
   vscode-fileheader v0.0.2
-  vscode-filesize v1.1.0
-  vscode-great-icons v2.1.22
+  vscode-filesize v2.1.1
+  vscode-great-icons v2.1.41
   vscode-html-css v0.2.0
-  vscode-markdownlint v0.12.1
-  vscode-npm-script v0.3.3
+  vscode-language-pack-zh-hans v1.26.3
+  vscode-markdownlint v0.19.0
+  vscode-npm-script v0.3.5
   vscode-regexp-preivew v0.0.3
-  vscode-standardjs v1.2.1
-  vue-snippets v0.1.5
+  vscode-standardjs v1.2.3
+  vue-snippets v0.1.8
   vue-vscode-snippets v1.3.0
 ```
 
@@ -457,6 +459,6 @@ JavaScript:
 ```
 Shift + Alt + u 输入在github为vs code创建的Token,上传配置到github里面的gist
 Shift + Alt + d 打开输入框,输入 gist id,下载配置及插件到本地
-GitHub Token: ca2c8d39b23d1c0df8294f82bedb8be269a448fd
-GitHub Gist: 6bee4626d6d30ad012566f9e12266549
+GitHub Token: 076672dfc462d55246c4008193859ab5398f44a5
+GitHub Gist: 683a3e919d40cfa9ef105063043058ca
 ```
