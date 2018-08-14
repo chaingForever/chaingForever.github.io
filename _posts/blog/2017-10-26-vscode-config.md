@@ -54,7 +54,7 @@ JavaScript:
 		"description": "document.getElementById(id)"
 	},
 	"qq": {
-		"prefix": "qq",
+		"prefix": "dq",
 		"body": [
 			"document.querySelector($1)"
 		],
@@ -124,12 +124,7 @@ JavaScript:
   },
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact",
     "vue": "html"
-  },
-  "editor.quickSuggestions": {
-    "other": true,
-    "strings": true
   },
   "workbench.colorTheme": "One Dark Pro",
   "highlightLine.borderColor": "#7f848e",
@@ -149,7 +144,7 @@ JavaScript:
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "window.enableMenuBarMnemonics": false,
-  "editor.quickSuggestionsDelay": 400,
+  "editor.quickSuggestionsDelay": 370,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.snippetSuggestions": "top",
   "workbench.iconTheme": "vscode-great-icons",
@@ -165,7 +160,8 @@ JavaScript:
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false,
-    "suppressUpdateNotice": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressUpdateNotice": true,
     "suppressWelcomeNotice": true
   },
   "sync.gist": "6bee4626d6d30ad012566f9e12266549",
@@ -181,6 +177,11 @@ JavaScript:
   "sync.askGistName": false,
   "files.autoSave": "afterDelay",
   "git.enableSmartCommit": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "element-helper.version": "2.2",
+  "gitlens.keymap": "alternate",
 }
 ```
 
@@ -226,6 +227,26 @@ JavaScript:
   {
     "key": "ctrl+h",
     "command": "-editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   }
 ]
 ```
